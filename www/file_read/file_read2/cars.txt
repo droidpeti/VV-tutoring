@@ -1,0 +1,4 @@
+Citroen;Berlingo;2007;Red
+Suzuki;Swift;2012;Green
+Toyota;Corolla;2008;Gray
+Honda;Civic;2010;White

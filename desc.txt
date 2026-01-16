@@ -1,3 +1,5 @@
+install podman and podman-compose
+
 podman-compose up -d
 podman-compose down
 
