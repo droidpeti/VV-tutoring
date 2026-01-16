@@ -1,0 +1,11 @@
+podman-compose up -d
+podman-compose down
+
+VS Code extensions php
+
+PHP Intelephense
+Error Lens
+
+Connection String
+Xampp: $conn = new mysqli("localhost", "root", "", "school");
+Docker: $conn = new mysqli("db", "root", "root", "school");
