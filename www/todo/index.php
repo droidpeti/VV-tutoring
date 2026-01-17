@@ -7,6 +7,11 @@
         }
         array_push($_SESSION["todos"], $_POST["title"]); 
     }
+    
+    if(isset($_POST["del"])){
+        $id = $_POST["del"];
+        array_splice($_SESSION["todos"], $id, 1);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -20,12 +25,24 @@
     <h1>Todo App</h1>
     <?php
         if(isset($_SESSION["todos"]) && count($_SESSION["todos"]) > 0){
+            echo "<form method='post'>";
             echo "<ul>";
             for($i = 0; $i < count($_SESSION["todos"]); $i++){
-                $del_btn = "<form method='post'><button type='submit' name='" . $i . "'>Delete " . $i . "</button>";
-                echo "<li>" . $_SESSION["todos"][$i] . $del_btn . "</li>";
+                $del_btn = "<button type='submit' name='del' value='" . $i . "'>Delete " . $i . "</button>";
+                $edit_mode = isset($_POST["edit"]) && $_POST["edit"] == $i;
+
+                if(!$edit_mode){
+                    $edit_btn = "<button type='submit' name='edit' value='" . $i . "'>Edit " . $i . "</button>";
+                    echo "<li>" . $_SESSION["todos"][$i] . $edit_btn . $del_btn . "</li>";
+                }
+                else{
+                    $edit_field = "<input type='text' value'=" . $_SESSION["todos"][$i] . "'>";
+                    echo "<li>" . $edit_field . "</li>";
+                }
+                
             }
             echo "</ul>";
+            echo "</form>";
         }
     ?>
     <form method="post">
