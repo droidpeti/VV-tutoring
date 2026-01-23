@@ -1,4 +1,5 @@
 install podman and podman-compose
+chmod -R 777 www
 
 podman-compose up -d
 podman-compose down
