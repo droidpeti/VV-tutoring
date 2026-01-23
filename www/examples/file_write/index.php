@@ -1,7 +1,7 @@
 <?php
     $saved = false;
     if(isset($_POST["fruit"]) && $_POST["fruit"] != ""){
-        $file_name = "fruits.txt";
+        $file_name = "../fruits.txt";
         $fruit = htmlspecialchars($_POST["fruit"]);
         file_put_contents($file_name, $fruit . "\n", FILE_APPEND | LOCK_EX);
         $saved = true;
