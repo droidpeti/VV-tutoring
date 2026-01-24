@@ -6,8 +6,8 @@
         Az isset-tel lehet megnézni, hogy be lett-e már állítva egy ilyen mező
     */
     if(isset($_POST["fruit"]) && $_POST["fruit"] != ""){
-        // It a ../ csak annyit jelent, hogy egy mappával feljebb van a fájl
-        $file_name = "../fruits.txt";
+        // It a ../ csak annyit jelent, hogy egy mappával feljebb lépünk, a files, meg a mappa ahol van a fájlunk
+        $file_name = "../files/fruits.txt";
         // A htmlspecialchars függvénnyel lehet tisztán elmenteni egy string értékét, lekezeli a nem valid karaktereket
         $fruit = htmlspecialchars($_POST["fruit"]);
         /* 
