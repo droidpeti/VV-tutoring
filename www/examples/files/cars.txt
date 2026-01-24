@@ -1,0 +1,6 @@
+Brand;Model;Year;Color;Engine
+Toyota;Corolla;2003;Gray;Petrol
+Honda;Civic;2006;Red;Diesel
+Suzuki;Swift;2012;Green;Petrol
+Skoda;Fabia;2014;Blue;Petrol
+Ford;Focus;2016;Black;Diesel
