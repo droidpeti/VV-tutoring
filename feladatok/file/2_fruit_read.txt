@@ -1,0 +1,4 @@
+Csinálj egy programot, ami a gyumik.txt fájlt beolvassa, és kiíratja a tartalmát!
+
+C#: Olvasd be a fájlt FileStreammel és StreamReaderrel! Írasd ki mindegyik gyümölcsöt a Console-ra!
+PHP: Olvasd be a fájlt a file() függvénnyel! Írasd ki a gyümölcsöket egy <ul></ul> elembe, mindegyik gyümölcsöt egy <li></li>-be!

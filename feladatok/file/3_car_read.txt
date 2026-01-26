@@ -1,0 +1,6 @@
+Csinálj egy programot, ami az autok.txt fájlt beolvassa, és kiíratja a tartalmát formázva!
+A cars.txt formátuma, az első sor a fejléc.
+Gyártó;Model;Szín;Év;Típus
+
+C#: Használd a FileStreamet és a StreamReadert a fájl beolvasásához! Használd a Split() metódust a sorok felbontásához!
+PHP: Használd a file() függvényt a fájl beolvasásához! Használd az explode() függvényt a sorok felbontásához! Egy táblázatban jelenítsd meg az adatokat!

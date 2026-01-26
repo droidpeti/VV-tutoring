@@ -1,0 +1,6 @@
+Csinálj egy programot, ami a felhasználótól beolvas egy Gyümölcsöt, aztán egy fájlban eltárolja!
+Mindig a fájl végéhez add hozzá a gyümölcsöt, ne felülírd az eddigieket!
+a gyumik.txt fájlban tárold el!
+
+C#: Használd a FileStreamet és a StreamWritert!
+PHP: Használd a file_put_contents()-et!

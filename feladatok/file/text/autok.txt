@@ -1,0 +1,6 @@
+Gyártó;Model;Szín;Év;Típus
+Ford;Focus;Kék;2010;Sedan
+Opel;Astra;Piros;2005;Kombi
+Suzuki;Swift;Zöld;2001;Hatchback
+Toyota;Corolla;Piros;2018;Sedan
+BMW;E46;Fekete;2003;Coupe

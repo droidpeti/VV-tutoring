@@ -1,0 +1,13 @@
+A 3-as feladatban készített programban beolvasott fájlal csinálj több dolgot C#-ban!
+
+A) Számolás
+    Írd ki, hogy összesen hány autót tárolunk a fájlban!
+
+B) Szűrés
+    Írasd ki, az összes autót aminek "Piros" a színe!
+
+C) Keresés
+    Kérj be egy évszámot a felhasználótól, és írasd ki az összes autót, amiket abban az évben, vagy előtte gyártottak!
+
+Extra feladat:
+Csináld meg ugyanezt PHP-ban is!
