@@ -189,7 +189,7 @@ class Program
                 string partnev = jeloltek[i].part;
                 if(partnev == "-")
                 {
-                    partnev = jeloltek[i].part;
+                    partnev = "Független";
                 }
                 keruletek[szerepel].nyertes_szavazatok = jeloltek[i].szavazatok;
                 keruletek[szerepel].nyertes_part = partnev;
